@@ -1,5 +1,7 @@
 # dictionary of dictionary 
 import json
-dic = {x : {"square":x**2,"cube":x**3} for x in range(1,5)}
+def find_cub()->None:
 
-print(json.dumps(dic,indent=4))
+      dic = {x : {"square":x**2,"cube":x**3} for x in range(1,5)}
+
+      print(json.dumps(dic,indent=4))
